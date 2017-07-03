@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180FB15C1DF0F434005FF02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB15B1DF0F434005FF02F /* AppDelegate.swift */; };
+		180FB15E1DF0F434005FF02F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB15D1DF0F434005FF02F /* ViewController.swift */; };
+		180FB1611DF0F434005FF02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180FB15F1DF0F434005FF02F /* Main.storyboard */; };
+		180FB1631DF0F434005FF02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180FB1621DF0F434005FF02F /* Assets.xcassets */; };
+		180FB1661DF0F434005FF02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180FB1641DF0F434005FF02F /* LaunchScreen.storyboard */; };
+		180FB16F1DF0F45B005FF02F /* HYPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB16E1DF0F45B005FF02F /* HYPageView.swift */; };
+		180FB1711DF0F470005FF02F /* HYTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB1701DF0F470005FF02F /* HYTitleView.swift */; };
+		180FB1731DF0F477005FF02F /* HYContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB1721DF0F477005FF02F /* HYContentView.swift */; };
+		180FB1751DF0F650005FF02F /* HYPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB1741DF0F650005FF02F /* HYPageStyle.swift */; };
+		180FB1791DF0F8FB005FF02F /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB1781DF0F8FB005FF02F /* UIColor-Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180FB1581DF0F434005FF02F /* HYPageView设计.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HYPageView设计.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180FB15B1DF0F434005FF02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180FB15D1DF0F434005FF02F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180FB1601DF0F434005FF02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180FB1621DF0F434005FF02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180FB1651DF0F434005FF02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180FB1671DF0F434005FF02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180FB16E1DF0F45B005FF02F /* HYPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYPageView.swift; sourceTree = "<group>"; };
+		180FB1701DF0F470005FF02F /* HYTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYTitleView.swift; sourceTree = "<group>"; };
+		180FB1721DF0F477005FF02F /* HYContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYContentView.swift; sourceTree = "<group>"; };
+		180FB1741DF0F650005FF02F /* HYPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYPageStyle.swift; sourceTree = "<group>"; };
+		180FB1781DF0F8FB005FF02F /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180FB1551DF0F434005FF02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180FB14F1DF0F434005FF02F = {
+			isa = PBXGroup;
+			children = (
+				180FB15A1DF0F434005FF02F /* HYPageView设计 */,
+				180FB1591DF0F434005FF02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180FB1591DF0F434005FF02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180FB1581DF0F434005FF02F /* HYPageView设计.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180FB15A1DF0F434005FF02F /* HYPageView设计 */ = {
+			isa = PBXGroup;
+			children = (
+				180FB16D1DF0F44A005FF02F /* HYPageView */,
+				180FB15B1DF0F434005FF02F /* AppDelegate.swift */,
+				180FB15D1DF0F434005FF02F /* ViewController.swift */,
+				180FB1781DF0F8FB005FF02F /* UIColor-Extension.swift */,
+				180FB15F1DF0F434005FF02F /* Main.storyboard */,
+				180FB1621DF0F434005FF02F /* Assets.xcassets */,
+				180FB1641DF0F434005FF02F /* LaunchScreen.storyboard */,
+				180FB1671DF0F434005FF02F /* Info.plist */,
+			);
+			path = "HYPageView设计";
+			sourceTree = "<group>";
+		};
+		180FB16D1DF0F44A005FF02F /* HYPageView */ = {
+			isa = PBXGroup;
+			children = (
+				180FB16E1DF0F45B005FF02F /* HYPageView.swift */,
+				180FB1741DF0F650005FF02F /* HYPageStyle.swift */,
+				180FB1701DF0F470005FF02F /* HYTitleView.swift */,
+				180FB1721DF0F477005FF02F /* HYContentView.swift */,
+			);
+			path = HYPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180FB1571DF0F434005FF02F /* HYPageView设计 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180FB16A1DF0F434005FF02F /* Build configuration list for PBXNativeTarget "HYPageView设计" */;
+			buildPhases = (
+				180FB1541DF0F434005FF02F /* Sources */,
+				180FB1551DF0F434005FF02F /* Frameworks */,
+				180FB1561DF0F434005FF02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYPageView设计";
+			productName = "HYPageView设计";
+			productReference = 180FB1581DF0F434005FF02F /* HYPageView设计.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180FB1501DF0F434005FF02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = coderwhy;
+				TargetAttributes = {
+					180FB1571DF0F434005FF02F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 180FB1531DF0F434005FF02F /* Build configuration list for PBXProject "HYPageView设计" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180FB14F1DF0F434005FF02F;
+			productRefGroup = 180FB1591DF0F434005FF02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180FB1571DF0F434005FF02F /* HYPageView设计 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180FB1561DF0F434005FF02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FB1661DF0F434005FF02F /* LaunchScreen.storyboard in Resources */,
+				180FB1631DF0F434005FF02F /* Assets.xcassets in Resources */,
+				180FB1611DF0F434005FF02F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180FB1541DF0F434005FF02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FB15E1DF0F434005FF02F /* ViewController.swift in Sources */,
+				180FB1751DF0F650005FF02F /* HYPageStyle.swift in Sources */,
+				180FB16F1DF0F45B005FF02F /* HYPageView.swift in Sources */,
+				180FB1711DF0F470005FF02F /* HYTitleView.swift in Sources */,
+				180FB15C1DF0F434005FF02F /* AppDelegate.swift in Sources */,
+				180FB1791DF0F8FB005FF02F /* UIColor-Extension.swift in Sources */,
+				180FB1731DF0F477005FF02F /* HYContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180FB15F1DF0F434005FF02F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180FB1601DF0F434005FF02F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180FB1641DF0F434005FF02F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180FB1651DF0F434005FF02F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180FB1681DF0F434005FF02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180FB1691DF0F434005FF02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180FB16B1DF0F434005FF02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HYPageView设计/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.HYPageView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		180FB16C1DF0F434005FF02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HYPageView设计/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.HYPageView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180FB1531DF0F434005FF02F /* Build configuration list for PBXProject "HYPageView设计" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180FB1681DF0F434005FF02F /* Debug */,
+				180FB1691DF0F434005FF02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180FB16A1DF0F434005FF02F /* Build configuration list for PBXNativeTarget "HYPageView设计" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180FB16B1DF0F434005FF02F /* Debug */,
+				180FB16C1DF0F434005FF02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180FB1501DF0F434005FF02F /* Project object */;
+}
